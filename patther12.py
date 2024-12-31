@@ -1,6 +1,6 @@
 for i in range(1,7):
-    for j in range(6-i):
+    for j in range(1+i):
         print(" ",end="")
-    for k in range(1,i):
+    for k in range(i,6):
         print(k,end="")
-    print("")
+    print("",)
